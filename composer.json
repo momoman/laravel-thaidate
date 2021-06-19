@@ -4,11 +4,9 @@
   "type": "library",
   "authors": [
     {
-      "name": "Chumpol Jitphiphat",
-      "email": "chumpol.jit@gmail.com"
+      "name": "Chumpol Jitphiphat"
     }
   ],
-  "homepage": "https://phattarachai.dev",
   "require": {
     "php": "^7.4|^8.0"
   },
