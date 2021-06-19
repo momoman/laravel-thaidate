@@ -1,0 +1,42 @@
+{
+  "name": "chumpol/laravel-thaidate",
+  "description": "A Laravel, PHP package for thaidate() function",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Chumpol Jitphiphat",
+      "email": "chumpol.jit@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^6.13",
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Chumpol\\Thaidate\\": "src"
+    },
+    "files": [
+      "src/function.php"
+    ]
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Chumpol\\Thaidate\\ThaidateServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "MIT"
+}
