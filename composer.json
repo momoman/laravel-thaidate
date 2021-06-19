@@ -1,5 +1,5 @@
 {
-  "name": "momoman/laravel-thaidate",
+  "name": "chumpol/laravel-thaidate",
   "description": "A Laravel, PHP package for thaidate() function",
   "type": "library",
   "authors": [
